@@ -9,9 +9,9 @@ Don't change lines 14, 19.
 
 "use strict";
 
-var arr = [1, 2]; //or let
+var arr = [1, 2]; //or let (preferred to use in block scopes fe. for loops, var for global scopes); cant reassign const
 
-arr.push(3);
+arr.push(3); //reference type
 
 console.log(arr);
 // [1, 2, 3]
