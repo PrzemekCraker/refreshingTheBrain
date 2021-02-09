@@ -1,4 +1,4 @@
-function destroyer(arr) {
+function dest(arr) {
   return arr.filter(
     (x) =>
       !Object.values(arguments)
